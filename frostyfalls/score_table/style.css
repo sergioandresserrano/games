@@ -1,0 +1,292 @@
+@charset "utf-8";
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////DEFAULT SECTION//////////*/
+
+
+/*///////BODY///////*/
+body{
+	background:#00299B;
+	font-family:'Raleway', sans-serif;
+	margin:0;
+	color:#fff;
+	font-size:20px;
+	height:100%;
+	
+}
+
+
+/*///////SELECTION///////*/
+
+::selection {
+	background: rgba(255, 0, 0, 0.99);
+	color: #FFF;
+	}
+::-moz-selection {
+	background: rgba(255, 0, 0, 0.99);
+	color: #FFF;
+}
+
+	
+/*///////INPUTS///////*/
+
+input{
+	text-decoration: none; 
+	background-color: #FFFFFF;
+	border:#FFFFFF solid 10px;
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	color:#6B9ED1;
+	outline: none;
+	width:100%;
+}	
+	
+textarea{
+	resize:none;
+	text-decoration: none; 
+	background-color: #FFFFFF;
+	border:#FFFFFF solid 10px;
+	font-size:16px;
+	font-family: 'Raleway', sans-serif;
+	color:#6B9ED1;
+	padding-left:5px;
+	outline: none;
+	height:100px;
+	margin:0px auto;
+	width:98.5%;
+}
+	
+/*///////LINKS///////*/	
+
+a {color:#C90905;text-decoration:none; font-size:16px; font-weight:bold; outline : none;}
+a:link {color:#C90905;text-decoration:none; font-size:16px; font-weight:bold}
+a:visited {color:#C90905;text-decoration:none; font-size:16px; font-weight:bold}
+a:active {color:#C90905;text-decoration:none; font-size:16px; font-weight:bold}
+a:hover {color:#FF0000;text-decoration:none; font-size:16px; font-weight:bold}
+
+a img {outline : none;}
+img {border : 0;}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////LOADER SECTION//////////*/
+
+
+
+.banner{
+	margin:0px auto;
+	text-align:center;
+	background:#0095FF;
+	width:70%;
+	padding:20px;
+	position:relative;
+	
+	-webkit-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-moz-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-o-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+}
+
+.container{
+	margin:0 auto;
+	text-align:center;
+	width:70%;
+	background:#59250E;
+	padding:20px;
+	
+	-webkit-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-moz-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-o-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+}
+
+.container_title{
+	margin:0 auto;
+	text-align:center;
+	background:#FF9239;
+	width:70%;
+	padding:20px;
+	
+	-webkit-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-moz-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-o-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+}
+
+.title{
+	text-align:center;
+	font-size:50px;
+	color:#FFF;
+	font-family: 'Raleway', sans-serif;
+	font-weight:600;
+	width:30%;
+	display:inline-block;
+	
+	-webkit-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-moz-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-o-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+}
+
+
+.column{
+	margin:0 auto;
+	text-align:center;
+	width:30%;
+	display:inline-block;
+	
+	-webkit-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-moz-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-o-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	
+}
+
+
+.content{
+	margin:20px auto;
+	text-align:center;
+	font-size:20px;
+	color:#FFF;
+	font-family: 'Raleway', sans-serif;
+	font-weight:400;
+	
+	-webkit-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-moz-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-o-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:682px){
+	.banner img{width:100%;
+	
+	-webkit-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-moz-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-o-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);}
+}
+
+@media only screen and (max-width:1024px){
+	
+	.banner img{width:70%;
+	
+	-webkit-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-moz-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-o-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);}
+}
+
+
+@media only screen and (max-width:800px){
+	.container{width:100%;
+	
+	-webkit-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-moz-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-o-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);}
+	
+	.container_title{width:100%;
+	
+	-webkit-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-moz-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-o-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);}
+	
+	.banner{width:100%;
+	
+	-webkit-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-moz-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-o-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);}
+}
+
+
+@media only screen and (max-width:767px){
+}
+
+@media only screen and (max-width:700px){
+	.title{font-size:25px;
+	
+	-webkit-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-moz-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-o-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);}
+
+}
+
+@media only screen and (max-width:573px){
+	.banner{padding-left:0px;padding-right:0px;
+	
+	-webkit-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-moz-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	-o-transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);
+	transition: all .5s cubic-bezier(0.175, 0.5, 0.32, 1.1);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

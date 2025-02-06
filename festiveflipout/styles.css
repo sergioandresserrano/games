@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-size: 1.5vw !important;
+    text-decoration: none;
+    color: #330058;
+}
+
+#texto {
+    font-size: 1.5vw !important;
+    text-decoration: none !important;
+    background: transparent;
+    color: #330058;
+    padding-left: 10px;
+    outline: none !important;
+    margin: 0px auto;
+    border: none !important;
+    font-weight: bold;
+}
+
+::placeholder {
+    color: #9d79bc;
+    opacity: 1;
+    font-size: 1.5vw;
+}
+
+:-ms-input-placeholder {
+    color: #9d79bc;
+    font-size: 1.5vw;
+}
+
+::-ms-input-placeholder {
+    color: #9d79bc;
+    font-size: 1.5vw;
+}
